@@ -1,0 +1,13 @@
+This wizard generates design storms (Rainfall depth variation with time) given total storm depth or IDF curve.
+----------------------------------------------------------------------------------------------------------------
+Two methods are implemented in the code:
+  - SCS II Design storm
+  - Alternating blocks frequency storm
+----------------------------------------------------------------------------------------------------------------
+The SCS method requires inputs in the form of a total storm depth (int/float) and a storm duration.
+a set of predefined storm durations are given to the user form which he chooses.
+----------------------------------------------------------------------------------------------------------------
+The Aletrnating Blocks method requires an input IDF curve file in the format supplied in the two text files.
+The user can define for this method the time when the peak of the rainfall occurs based on experience.
+----------------------------------------------------------------------------------------------------------------
+The output of this code is a file containing the temporal distribution of the storm in addition to graphical representation of the event.
